@@ -1,169 +1,188 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-
-
-a {
-  text-decoration: none;
-}
-
-:root {
-  --primary-color: #ed3a3a;
-}
-
-body {
-  font-family: 'Zen Kurenaido', sans-serif;
-  margin: 0px auto;
-  max-width: 85%;
-  width: 100%;
-}
-
-.container {
-  padding: 0rem 1rem;
-}
-
-.container-center {
-  margin: 4rem auto 7rem;
-  text-align: center
-}
-
-.navigation {
-  background-color: var(--primary-color);
-  color: white;
-  padding: 1rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-}
-
-.navigation .nav-brand {
-  font-weight: bold;
-}
-
-.nav-brand a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.navigation .nav-pills {
-  text-align: right;
-  margin: 0.6rem 1rem;
-}
-
-.navigation .link {
-  color: white;
-}
-
-.navigation .link-active {
-  font-weight: bold;
-}
-
-
-
-.link {
-  box-sizing: border-box;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-}
-
-.list-item-inline {
-  display: inline;
-  padding: 0rem 0.5rem;
-}
-
-
-.heading {
-  color: var(--primary-color);
-}
-
-.description {
-  font-size: larger;
-  margin: 1rem;
-}
-
-.input-label {
-  display: block;
-  font-size: large;
-  font-weight: 600;
-}
-
-.input {
-  font-size: 14px;
-  outline: #fff;
-  padding: 0.6rem 1rem;
-  margin: 1rem;
-  border: 2px solid var(--primary-color);
-  border-radius: 0.5rem;
-  width: 100%;
-  max-width: 150px;
-}
-
-#check-button {
-  background: var(--primary-color);
-  border: none;
-  color: #fff;
-  padding: 0.7rem 1rem;
-  border-radius: 0.5rem;
-  font-size: large;
-  cursor: pointer;
-  outline: #fff;
-  margin: auto;
-  display: block;
-}
-
-#error-message {
-  display: block;
-  font-size: larger;
-  margin: 1rem 0 0;
-}
-
-.change-table {
-  width: 100%;
-  text-align: justify;
-  border-collapse: collapse;
-  margin: auto;
-}
-
-.change-table caption {
-  margin: 1rem auto;
-  font-size: x-large;
-  font-weight: 500;
-}
-
-th,
-td {
-  border: 2px solid var(--primary-color);
-  width: 0%;
-  border-collapse: collapse;
-  padding: 0.4rem;
-}
-
-.footer {
-  background-color: var(--primary-color);
-  padding: 2rem 1rem;
-  text-align: center;
-  color: white;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-}
-
-.footer .link {
-  color: white;
-}
-
-.footer .footer-header {
-  font-weight: bold;
-  font-size: large;
-}
-
-.footer ul {
-  padding-inline-start: 0px;
-}
-
-a,
-img,
-li {
-  display: inline;
-}
-
-img {
-  width: 40px;
-  padding: 0.2rem;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+     :root {
+        --primary-color: #ff4c68;
+        --primary-color-hover: #ef8172;
+        --off-white: #f3f4f6;
+        --dark-gray: #6b7280;
+    }
+    
+    body {
+        font-family: "Montserrat";
+        margin: 0rem 3rem;
+    }
+    
+    .container {
+        padding: 0rem 1rem;
+    }
+    
+    .container-center {
+        max-width: 900px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #title {
+        background-color: var(--primary-color);
+        padding: 3% 5% 0%;
+        font-family: "Montserrat";
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    
+    .link {
+        box-sizing: border-box;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+    }
+    
+    .list-non-bullet {
+        list-style: none;
+    }
+    
+    .list-item-inline {
+        display: inline;
+        padding: 0rem 0.5rem;
+    }
+    
+    .navigation {
+        font-family: "Ubuntu";
+        background-color: var(--primary-color);
+        color: white;
+        padding: 2rem 2rem 0rem 2rem;
+    }
+    
+    .navigation .nav-brand {
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        font-size: xx-large;
+        display: inline-block;
+    }
+    
+    .nav-brand {
+        font-family: "Ubuntu";
+        color: inherit;
+    }
+    
+    .nav-brand a {
+        font-family: "Ubuntu";
+        color: inherit;
+    }
+    
+    .navigation .nav-pills {
+        text-align: right;
+        margin: 0rem 1rem;
+        float: right;
+    }
+    
+    .navigation .link {
+        color: white;
+        font-size: larger;
+        font-family: 'Cinzel', serif;
+    }
+    
+    .navigation .link-active {
+        font-weight: bold;
+    }
+    
+    .heading {
+        text-align: center;
+    }
+    
+    .description {
+        text-align: center;
+    }
+    
+    .input-label {
+        display: block;
+        font-size: large;
+        font-weight: 600;
+    }
+    
+    .input {
+        font-size: 14px;
+        outline: #fff;
+        padding: 0.6rem 1rem;
+        margin: 1rem;
+        border: 2px solid var(--primary-color);
+        border-radius: 0.5rem;
+        width: 100%;
+        max-width: 150px;
+    }
+    
+    #error-message {
+        display: block;
+        font-size: xx-large;
+        margin: 1rem 0 0;
+        color: var(--primary-color);
+    }
+    
+    #check-button {
+        background-color: var(--primary-color);
+        border-radius: 0.5rem;
+        border: none;
+        cursor: pointer;
+        color: #ffffff;
+        outline: #ffffff;
+        margin: auto;
+        display: block;
+        font-size: 20px;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    .change-table {
+        width: 100%;
+        text-align: justify;
+        border-collapse: collapse;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    
+    .change-table caption {
+        margin: 1rem auto;
+        font-size: x-large;
+        font-weight: 500;
+    }
+    
+    th,
+    td {
+        border: 2px solid var(--primary-color);
+        width: 0%;
+        border-collapse: collapse;
+        padding: 0.4rem;
+    }
+    
+    hr {
+        border-top: 5px dotted red;
+        margin: 7% 30% 7% 30%;
+    }
+    
+    .footer {
+        background-color: var(--primary-color);
+        padding: 2rem 1rem;
+        text-align: center;
+        color: white;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+    
+    .footer .link {
+        color: white;
+    }
+    
+    .footer .footer-header {
+        font-weight: bold;
+        font-size: large;
+    }
+    
+    .footer ul {
+        padding-inline-start: 0px;
+    }
+    
+    img {
+        width: 40px;
+        padding: 0.2rem;
+        display: inline;
+    }
